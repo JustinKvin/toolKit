@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<color name="theme_color">#ff7393</color>-->
+    <!--<color name="tint_theme_color">#90ff7393</color>-->
+    <!--<color name="nav_main_footer_selected">#ffff00</color>-->
+    <color name="loading_more">#999999</color>
+
+    <color name="tarmac">#006600</color>
+    <color name="red">#ff0000</color>
+    <color name="orange">#ff6600</color>
+    <color name="yellow">#ffcc00</color>
+    <color name="green">#00ff00</color>
+    <color name="blue">#0000ff</color>
+    <color name="light_blue">#0066ff</color>
+    <color name="gray">#999999</color>
+    <color name="light_gray">#ccffcc</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="pink">#ff66cc</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="choice_red_bg">#ff899e</color>
+    <color name="choice_yellow_bg">#ffcb41</color>
+    <color name="choice_green_bg">#afd474</color>
+    <color name="choice_blue_bg">#56c3f4</color>
+</resources>

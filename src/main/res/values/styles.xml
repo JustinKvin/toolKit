@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget" />
+
+    <style name="PopupWindow" />
+    <!--right in right out-->
+    <style name="PopupWindow.Right_in_right_out">
+        <item name="android:windowEnterAnimation">@anim/push_right_in</item>
+        <item name="android:windowExitAnimation">@anim/push_right_out</item>
+    </style>
+
+    <style name="PopupWindow.Left_in_left_out">
+        <item name="android:windowEnterAnimation">@anim/push_left_in</item>
+        <item name="android:windowExitAnimation">@anim/push_left_out</item>
+    </style>
+
+    <style name="PopupWindow.Top_in_top_out">
+        <item name="android:windowEnterAnimation">@anim/push_top_in</item>
+        <item name="android:windowExitAnimation">@anim/push_top_out</item>
+    </style>
+
+    <style name="PopupWindow.Bottom_in_bottom_out">
+        <item name="android:windowEnterAnimation">@anim/push_right_in</item>
+        <item name="android:windowExitAnimation">@anim/push_right_out</item>
+    </style>
+
+    <!--dialog utils loading anim-->
+    <style name="DialogUtilsLoadingAnim">
+        <item name="android:windowEnterAnimation">@anim/from_hide_to_show</item>
+        <item name="android:windowExitAnimation">@anim/from_show_to_hide</item>
+    </style>
+
+
+    <!-- loading data dialog style-->
+    <style name="DialogUtils" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item> <!--Dialog的windowFrame框为无-->
+        <item name="android:windowIsFloating">true</item><!-- 是否漂现在activity上-->
+        <item name="android:windowIsTranslucent">true</item><!-- 是否半透明 -->
+        <item name="android:windowTitleStyle">@style/DialogUtils.TitleStyle</item>
+        <item name="android:textColor">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item><!-- dim:模糊的 阴影效果 -->
+        <item name="android:windowBackground">@color/transparent</item><!-- 背景图片的大小也影响窗口的大小 -->
+    </style>
+    <!--dialog title-->
+
+    <style name="DialogUtils.TitleStyle">
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">@color/transparent</item>
+    </style>
+
+
+</resources>
